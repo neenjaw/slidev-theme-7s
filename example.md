@@ -5,18 +5,18 @@ layout: intro
 # https://sli.dev/custom/highlighters.html
 highlighter: shiki
 themeConfig:
-  logoHeader: '/logo.svg'
-  eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'
-  eventUrl: 'https://vuejs.amsterdam/'
-  twitter: '@alvarosabu'
-  twitterUrl: 'https://twitter.com/alvarosabu'
+  logoHeader: '/img/logo.png'
+  eventLogo: 'https://forum.devtalk.com/uploads/default/original/1X/9f1a723b8015a9073e7681a7cde9af6069ce3f1f.png'
+  eventUrl: 'https://google.com/'
+  twitter: '@yxe_tim'
+  twitterUrl: 'https://twitter.com/yxe_tim'
 css: unocss
 ---
 
 
-# A penguin Slidev Theme
+# A 7s Slidev Theme
 
-🐧 slides for developers
+Slides for 7s developers
 
 <div class="pt-12">
   <span @click="next" class="px-2 p-1 rounded cursor-pointer hover:bg-white hover:bg-opacity-10">
@@ -26,23 +26,19 @@ css: unocss
 
 ---
 layout: presenter
-eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'
-eventUrl: 'https://vuejs.amsterdam/'
-twitter: '@alvarosabu'
-
-twitterUrl: 'https://twitter.com/alvarosabu'
-presenterImage: 'https://res.cloudinary.com/alvarosaburido/image/upload/v1666351649/b_w_egfb4v.png'
+eventUrl: 'https://7shifts.com/'
+twitter: '@yxe_tim'
+twitterUrl: 'https://twitter.com/yxe_tim'
+presenterImage: 'https://avatars.githubusercontent.com/u/8953691?v=4'
 ---
 
-# Alvaro Saburido
+# Tim Austin
 
-DevRel at <a  href="https://www.storyblok.com/"><logos-storyblok-icon  mr-1/>Storyblok</a>
+Senior Software Developer at <fancy-link href="https://www.7shifts.com/">7shifts</fancy-link>
 
-- Barcelona, Spain 🇪🇸
-- I often write at <a href="https://dev.to/alvarosaburido"> dev.to/@alvarosabu</a>
-- Creating content on <a href="https://www.youtube.com/channel/AlvaroDevLabs" ><logos-youtube-icon mr-1 />AlvaroDevLabs</a>
-- Blog & Portfolio <a href="https://alvarosaburido.dev">alvarosaburido.dev</a>
-- Say hi at <a href="https://twitter.com/alvarosabu"><logos-twitter mr-1 />@alvarosabu</a>
+- Saskatoon, SK &nbsp;🇨🇦
+- Blog & Portfolio <fancy-link href="https://www.neenjaw.com">neenjaw.com</fancy-link>
+- Say hi at <fancy-link href="https://twitter.com/yxe_tim">@yxe_tim</fancy-link>
 
 ---
 layout: text-image
@@ -50,11 +46,11 @@ media: 'https://media.giphy.com/media/VkMV9TldsPd28/giphy.gif'
 caption: 'I am a penguin'
 ---
 
-# This is a peguin
+# This is a slide
 
-Arepa ipsum dolor amet jalabola! aenean sit tequeños se prendio esta chamito;? Nisl nojoda eu amet in? Nisl cuál es la guachafita ni lava ni presta la batea háblame cloro gravida sifrino macundal panita; Sed háblame cloro nunc empanada ac coroto Na webona vladimil parchita? 
+Arepa ipsum dolor amet jalabola! aenean sit tequeños se prendio esta chamito;? Nisl nojoda eu amet in? Nisl cuál es la guachafita ni lava ni presta la batea háblame cloro gravida sifrino macundal panita; Sed háblame cloro nunc empanada ac coroto Na webona vladimil parchita?
 
-- Cacique panita sit Se prendio la labia gravida Praesent tequeño. 
+- Cacique panita sit Se prendio la labia gravida Praesent tequeño.
 - Qué paso mi pana?! elit parchita molleja aguacate vergación, háblame mollejúo chamito est burda mauris morbi;
 
 ---
@@ -63,7 +59,7 @@ reverse: true
 media: 'https://media.giphy.com/media/VkMV9TldsPd28/giphy.gif'
 ---
 
-# This is a reverse peguin
+# This is a reverse slide
 
 Arepa ipsum dolor amet jalabola! aenean sit tequeños se prendio esta mierdaa menool ladilla chamito;? Nisl nojoda eu amet in? Nisl cuál es la guachafita ni lava ni presta la batea háblame cloro gravida sifrino macundal panita; Sed háblame cloro nunc empanada ac coroto Na webona vladimil parchita? Cacique ladilla sit Se prendio el peo labia gravida Praesent tequeño. Qué paso mi pana?! elit parchita molleja aguacate vergación, háblame mollejúo chamito est burda mauris morbi;
 ---
@@ -110,8 +106,8 @@ layout: new-section
 ![penguin-work](https://media.giphy.com/media/VkMV9TldsPd28/giphy.gif)
 
 ---
-eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'
-eventUrl: 'https://vuejs.amsterdam/'
+eventLogo: 'https://forum.devtalk.com/uploads/default/original/1X/9f1a723b8015a9073e7681a7cde9af6069ce3f1f.png'
+eventUrl: 'https://google.com/'
 twitter: '@alvarosabu'
 twitterUrl: 'https://twitter.com/alvarosabu'
 
@@ -135,9 +131,9 @@ export const app = createApp(App);
 
 app.use(VueDynamicForms);
 ```
---- 
+---
 layout: two-cols
---- 
+---
 Awiwiiw
 
 ```ts
