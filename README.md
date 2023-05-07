@@ -7,7 +7,7 @@
 
 Based on [slidev-theme-penguin](https://www.npmjs.com/package/slidev-theme-penguin)
 
-A Penguin 🐧  theme for [Slidev](https://github.com/slidevjs/slidev).
+A 7s theme for [Slidev](https://github.com/slidevjs/slidev).
 
 This theme is based on 7shifts brand colors.
 
@@ -204,7 +204,7 @@ I go inside the window
 
 ## Components
 
-This theme provides the following components:
+This theme provides the following components via `slidev-theme-penguin1:
 
 ### Auto-favicon fancy link `fancy-link`
 
