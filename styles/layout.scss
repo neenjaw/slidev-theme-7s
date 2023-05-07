@@ -7,6 +7,10 @@
 
 /* general css here */
 
+.crescent-flourish {
+  max-width: unset;
+}
+
 html:not(.dark) #slide-content {
   /* light mode css here */
   @apply bg-white text-primary;
@@ -18,6 +22,7 @@ html:not(.dark) #slide-content {
 
   h1 {
     @apply text-secondary;
+    text-shadow: #2b3846 1px 0 5px;
   }
 
   a {

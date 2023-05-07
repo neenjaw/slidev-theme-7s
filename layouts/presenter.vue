@@ -5,8 +5,7 @@
         <slot />
       </div>
       <figure class="w-1/2 relative top-15">
-        <!-- <AsGraphic type="donut" absolute top-2 left-0 text-secondary-200 /> -->
-        <img src="/img/flourish_01.png" absolute bottom-5 left-20 />
+        <img src="/img/flourish_01.png" class="crescent-flourish" absolute bottom--25 left-20 />
         <div class="presenter bg-gray-400 relative important-rounded-full object-cover h-80 w-80 z-10">
           <img
             :src="$attrs.presenterImage || 'https://anonymous-animals.azurewebsites.net/animal/penguin'"
@@ -15,7 +14,6 @@
         </div>
       </figure>
     </div>
-    <!-- <AsGraphic type="curve-small" absolute bottom-0 right-0 /> -->
   </div>
 </template>
 

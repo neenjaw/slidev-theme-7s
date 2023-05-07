@@ -1,12 +1,15 @@
 ![repository-banner.png](https://res.cloudinary.com/alvarosaburido/image/upload/v1612193118/as-portfolio/Repo_Banner_kexozw.png)
 
-# slidev-theme-penguin
+# slidev-theme-7s
 
-[![NPM version](https://img.shields.io/npm/v/slidev-theme-penguin?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-penguin)
+
+[![NPM version](https://img.shields.io/npm/v/slidev-theme-7s?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-7s)
+
+Based on [slidev-theme-penguin](https://www.npmjs.com/package/slidev-theme-penguin)
 
 A Penguin 🐧  theme for [Slidev](https://github.com/slidevjs/slidev).
 
-This theme is based on my personal brand, but it can be easily use and customized for your own.
+This theme is based on 7shifts brand colors.
 
 <!--
 run `npm run dev` to check out the slides for more details of how to start writing a theme
@@ -16,29 +19,12 @@ run `npm run dev` to check out the slides for more details of how to start writi
 put some screenshots here to demonstrate your theme,
 -->
 
-
-Live demo: [here](https://slidev-theme-penguin.alvarosaburido.dev/)
-
-## You can help me keep working on this project 💚
-
-- [Become a Sponsor on GitHub](https://github.com/sponsors/alvarosaburido)
-- [One-time donation via PayPal](https://paypal.me/alvarosaburido)
-
-<h4 align="center">Generous Unicorns 🦄</h4>
-
-<p align="center">
-  <a href="https://github.com/OmgImAlexis" target="_blank" rel="noopener noreferrer" ">
-    <img src="https://avatars.githubusercontent.com/u/6525926?v=4" height="72px"  style="border-radius: 100%; overflow: hidden; border: 4px solid #5EDCAE" alt="OmgImAlexis">
-  </a>
-</p>
-
-
 ## Install
 
 Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
 
 <pre><code>---
-theme: <b>penguin</b>
+theme: <b>7s</b>
 ---</code></pre>
 
 It is also required to install the npm package `vite-svg-loader` and adding a vite.config.js in your project with the following:
@@ -73,7 +59,7 @@ themeConfig:
   twitterUrl: 'https://twitter.com/alvarosabu'
 ---
 ```
-With properties            | Without properties 
+With properties            | Without properties
 :-------------------------:|:-------------------------:
 ![introDark](./screenshots/dark/intro.png) | ![introLight](./screenshots/dark/04.png)
 
